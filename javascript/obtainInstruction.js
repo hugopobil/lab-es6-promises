@@ -20,8 +20,7 @@ function obtainInstruction(food, step) {
       }
       else if (food === "broccoli") {
         instruction = broccoli[step];
-      };
-      
+      }
 
       // Resolve or reject the promise
       if (!instruction) {
